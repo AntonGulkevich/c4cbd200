@@ -98,6 +98,7 @@ int main(const int argc, char* argv[])
 	else
 	{
 		printf_s(R"(Hint: "fullpath/filename.extension" "m*ask?*")");
+		return -1;
 	}
 
 	return 0;

@@ -31,18 +31,6 @@ public:
 	// D-tor
 	~CLogReader() noexcept;
 
-	// r3
-	CLogReader(const CLogReader &qft) = delete;
-
-	// r3
-	CLogReader & operator=(const CLogReader & rqtf) = delete;
-
-	// r5
-	CLogReader(const CLogReader &&qft) = delete;
-
-	// r5
-	CLogReader & operator=(const CLogReader && rqtf) = delete;
-
 	// открытие файла, false - ошибка
 	bool Open(const char *filename) noexcept;
 
@@ -118,6 +106,20 @@ private:
 	// initialize memory block for new _QuantifiedToken with parameters
 	// return true on success, false on failure
 	[[nodiscard]] bool InitQuantToken(const _PlaceholderToken token, const char & ref)noexcept;
+
+
 #pragma endregion 
 
+public:
+	// r3
+	CLogReader(const CLogReader &qft) = delete;
+
+	// r3
+	CLogReader & operator=(const CLogReader & rqtf) = delete;
+
+	// r5
+	CLogReader(const CLogReader &&qft) = delete;
+
+	// r5
+	CLogReader & operator=(const CLogReader && rqtf) = delete;
 };
