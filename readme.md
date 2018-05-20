@@ -1,5 +1,9 @@
 ### c4cbd200 - one more log reader
 
+### Content:
+* [Built x64 version](https://github.com/AntonGulkevich/c4cbd200/tree/master/c4cbd200/example)
+* [Source files](https://github.com/AntonGulkevich/c4cbd200/tree/master/c4cbd200/c4cbd200)
+
 ### Build Requirements:
 * Windows 10 SDK: 10.0.17134.0
 * Visual Studio 2017 (v141 - toolset)
