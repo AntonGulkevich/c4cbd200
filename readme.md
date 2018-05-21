@@ -20,9 +20,9 @@
 - [x] ? any single character
 - [x] "abc" string abc
 
-### Passed Tests:
-		// Cases with repeating character sequences.
+### Passed Tests(all):
 
+		// Cases with repeating character sequences.
 		allOk &= Try("abc", "*a*b*b*", false);
 		allOk &= Try("abc", "********a********b********b********", false);
 
